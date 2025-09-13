@@ -17,7 +17,7 @@ If you intend to use this software (or its significant parts) in a commercial co
 
 # Changelog 🚀
 
-## 🪐GRAND UPDATE v3.0.0 – Changes Overview
+## 🪐GRAND UPDATE v3.0.1 – Changes Overview
 
 ### Removed
 - Aggressive mode from both frontend and backend.
