@@ -8,7 +8,23 @@ If you intend to use this software (or its significant parts) in a commercial co
 
 # Changelog 🚀
 
-## 🌀 GRAND UPDATE v2.0.0
+## 🪐GRAND UPDATE v3.0.0 – Changes Overview
+
+### Removed
+- Aggressive mode from both frontend and backend.
+- OpenLibrary API (no longer used for link fetching).
+- Any UI components related to aggressive mode (e.g., `AggressiveModeToggle` in React).
+- Yahoo search included only as a basic fallback; aggressive combined queries were removed.
+
+### Added
+- Integration with **Qwant API** (free search engine) for keyword-specific searches.
+- Integration with **Hacker News API** to fetch relevant posts.
+- Integration with **StackExchange API** to search questions and answers exactly matching keywords.
+- **DuckDuckGo, Bing, Wikipedia, Reddit** remain as search sources.
+- Frontend automatically sends keywords and language to backend without any aggressive mode parameters.
+- Exact keyword search for all APIs where possible to improve relevance.
+
+## 🌀 GRAND UPDATE v2.0.0 – Changes Overview
 
 ## 🔍 What’s Changed?
 
